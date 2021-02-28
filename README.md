@@ -2,7 +2,7 @@
 ### Asignatura: Seguridad en Sistemas Informáticos
 
 > Alumna: Andrea Calero Caro
-> Alu: 0101202952
+- Alu: 0101202952
 
 
 
