@@ -15,7 +15,7 @@ class CVigenere {
 // Función que genera la clave de manera cíclica por su tamaño
 // hasta que su longitud sea igual a la longitud del texto original
 public static String generateKey(String message, String key) { 
-  for (int i = 0; ; i++) { 
+  for (int i = 0; i < message.length() ; i++) { 
     if (message.length() == i) {
       i = 0; 
     } // Si la longitud de la clave es igual al tamaño del texto terminamos de repetir
@@ -105,7 +105,7 @@ public static void main(String[] args) {
   // encriptado llamando así a las funciones encryptedMessage() y decryptedMessage()
   System.out.println("Mensaje original: " + message + "\n"); 
   System.out.println("Mensaje cifrado: " + encrypted_message + "\n"); 
-  System.out.println("Mensaje desencriptado: " + decryptedMessage(encrypted_message, key)); 
+  System.out.println("Mensaje desencriptado: " + decryptedMessage(encrypted_message, key)); /*encrypted_message"*/
   } 
 
 } // Fin de la clase CVigenere
